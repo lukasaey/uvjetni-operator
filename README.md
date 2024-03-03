@@ -1,1 +1,1 @@
-# Uvjetni Operatori
+# Uvjetni Operator
