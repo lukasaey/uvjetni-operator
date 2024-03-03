@@ -1,6 +1,6 @@
 # Uvjetni Operator
 
-Uvjetni operator u programskom jeziku C je kratka sintaksa za izražavanje uvjetnih izraza.
+Uvjetni operator, poznat i kao ternarni operator, u programskom jeziku C je kratka sintaksa za izražavanje uvjetnih izraza.
 
 On omogućuje odabir između dva izraza na temelju provjere uvjeta. 
 
