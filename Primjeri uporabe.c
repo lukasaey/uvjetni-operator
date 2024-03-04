@@ -1,7 +1,7 @@
 // 1.Kratka sintaksa za jednostavne uvjete:
 #include <stdio.h>
 
-int main() {
+void _1() {
     char *stanje = "otvoreno";
     char *poruka =
         (stanje == "otvoreno") ? "Dobrodošli!" : "Trenutno zatvoreno.";
@@ -12,9 +12,8 @@ int main() {
 }
 
 // 2.Provjeravanje više uvjeta koristeći uvjetni operator:
-#include <stdio.h>
 
-int main() {
+void _2() {
     int broj = 75;
 
     (broj > 100)  ? printf("Broj je veći od 100.\n")
@@ -27,9 +26,8 @@ int main() {
 }
 
 // 3.Uvjetno izvršavanje blokova koda:
-#include <stdio.h>
 
-int main() {
+void _3() {
     int broj = 7;
 
     (broj % 2 == 0) ? printf("Broj je paran.\n") : printf("Broj je neparan.\n");
@@ -40,9 +38,8 @@ int main() {
 }
 
 // 4.Ispisivanje poruke na temelju uvjeta:
-#include <stdio.h>
 
-int main() {
+void _4() {
     int broj = 15;
 
     (broj > 10) ? printf("Broj je veći od 10.\n")
@@ -54,9 +51,8 @@ int main() {
 }
 
 // 5.Dodjela vrijednosti varijabli na temelju uvjeta:
-#include <stdio.h>
 
-int main() {
+void _5() {
     int x = 10;
     int y = 5;
 
