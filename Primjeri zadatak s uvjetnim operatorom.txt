@@ -63,3 +63,16 @@ int main() {
 
     return 0;
 }
+
+6. Omogućiti korisniku unos jednog cijelog broja. Izračunati i na ekran ispisati apsolutnu vrijednost cijelog broja.
+
+#include <stdio.h>
+int main (void)
+{
+ int x, a;
+ printf("Unesite cijeli broj: ");
+ scanf("%d", &x);
+ a= x < 0 ? -x : x;
+printf("Apsolutna vrijednost broja %d je %d. ", x, a);
+return 0;
+}
