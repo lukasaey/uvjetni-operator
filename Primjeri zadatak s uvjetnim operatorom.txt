@@ -1,0 +1,65 @@
+1. Napiši program koji ispisuje najveći broj između dva unesena broja.
+ 
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    printf("Unesite prvi broj: ");
+    scanf("%d", &a);
+    printf("Unesite drugi broj: ");
+    scanf("%d", &b);
+
+    int max = a > b ? a : b;
+    printf("Najveci broj je: %d\n", max);
+
+    return 0;
+}
+
+2. Napišite program koji ispisuje najmanji broj između dva unesena broja.
+
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    printf("Unesite prvi broj: ");
+    scanf("%d", &a);
+    printf("Unesite drugi broj: ");
+    scanf("%d", &b);
+
+    int min = a < b ? a : b;
+    printf("Najmanji broj je: %d\n", min);
+
+    return 0;
+}
+
+3. Napišite program koji ispisuje da li je unesen paran ili neparan broj.
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Unesite broj: ");
+    scanf("%d", &a);
+
+    printf("%d je %s\n", a, a % 2 == 0 ? "paran" : "neparan");
+
+    return 0;
+}
+
+4.Napišite program koji ispisuje da li je uneseni broj paran ,negativan ili nula.
+
+
+
+5. Napišite program koji ispisuje da li je uneseni broj djeljiv sa 3 ili ne.
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Unesite broj: ");
+    scanf("%d", &a);
+
+    printf("%d je %s\n", a, a % 3 == 0 ? "djeljiv sa 3" : "nije djeljiv sa 3");
+
+    return 0;
+}

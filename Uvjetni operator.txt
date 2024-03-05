@@ -1,0 +1,11 @@
+-Uvjetni operator (conditional operator) je ternarni operator u jezicima poput C, C++, Java, i C#. On omogućava kraću sintaksu za if-then-else izraze.
+-Sintaksa: 
+	izraz_uslovan ? izraz_true : izraz_false;
+
+-Ako je izraz_uslovan istinit (true), onda se izvršava izraz_true i njegova vrijednost postaje rezultat izraza. 
+-Ako je izraz_uslovan neistinit (false), onda se izvršava izraz_false i njegova vrijednost postaje rezultat izraza.
+-Uvjetni operator zamjenjuje samo oblike if naredbe unutar kojih se ne pojavljuje blok naredbi!
+-Računalo ispituje vrijednost logičkog izraza i ako je vrijednost true izvršava izraz -1, a ako je false izvršava izraz-2. Izraz u primjeru pridjeljuje vrijednost N / 2 varijabli broj ako N paran broj, a vrijednost ( 3 * N + 1 ) ako je N neparan broj:
+
+	broj = (N % 2 == 0) ? (N/2) : (3*N+1);
+-Primijetite da je naredba iza dvotočke u zagradi. To je zato što je to složena naredba (sadrži i operator pridruživanja).
