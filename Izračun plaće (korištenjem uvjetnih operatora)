@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float satnica
+    float radni_sati, placanje;
+
+    // Unos broja radnih sati
+    printf("Unesite broj radnih sati: ");
+    scanf("%f", &radni_sati);
+
+    // Računanje plaće pomoću uvjetnog operatora
+    placanje = (radni_sati <= 40) ? (satnica * radni_sati) : ((40 * satnica) + ((radni_sati - 40) * satnica * 1.5));
+
+    // Ispis plaće
+    printf("Plaća je: %.2f eura\n", placanje);
+
+    return 0;
+}
