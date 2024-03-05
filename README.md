@@ -6,3 +6,5 @@ On omogućuje odabir između dva izraza na temelju provjere uvjeta.
 
 Također pruža jednostavan način za dodjeljivanje vrijednosti varijablama na temelju uvjeta, često koristeći manje koda u odnosu na tradicionalne if-else izjave.
 
+Uvjetni operator zamjenjuje if naredbe u kojima se ne pojavljuje blok naredbi.
+
