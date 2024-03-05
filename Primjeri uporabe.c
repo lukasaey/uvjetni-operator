@@ -63,3 +63,16 @@ void _5() {
 
     return 0;
 }
+
+//6. Ako je broj veći od 0, ispisati će njegov kvadrat, ako je manji ,0.
+
+#include<stdio.h>
+
+void_6(){
+ int a;
+ printf("Upisite cijeli broj: ");
+ scanf("%d",&a);
+ (a>0) ? printf("%d",a*a)
+        :printf("%d",a-a);
+ return 0; 
+}
