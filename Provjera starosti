@@ -7,5 +7,5 @@ char* rezultat = (dob < 18) ? "Dijete" : "Odrasla osoba";
 // Vrijednost rezultat u ovom slučaju će biti "Odrasla osoba"
 
 
-
+return 0;
 }
