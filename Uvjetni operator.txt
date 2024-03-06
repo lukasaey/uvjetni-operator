@@ -9,3 +9,4 @@
 
 	broj = (N % 2 == 0) ? (N/2) : (3*N+1);
 -Primijetite da je naredba iza dvotočke u zagradi. To je zato što je to složena naredba (sadrži i operator pridruživanja).
+-U određenim slučajevima uvjetni operator smanjuje kompleksnost koda, te ga čini čitljivijim.
