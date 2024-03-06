@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main (void){
+
+int dob = 18;
+char* rezultat = (dob < 18) ? "Dijete" : "Odrasla osoba";
+// Vrijednost rezultat u ovom slučaju će biti "Odrasla osoba"
+
+
+
+}
